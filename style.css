@@ -1,0 +1,115 @@
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: hsl(0, 7%, 3%);
+}
+
+section.main {
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(images/bg-pattern-top.svg);
+}
+
+.card {
+  width: 340px;
+  border-radius: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.card-header {
+  height: 145px;
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.user-profile .img-holder {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: -45px auto 20px auto;
+  overflow: hidden;
+}
+
+.user-profile {
+  padding: 0px 30px 30px 30px;
+}
+.user-profile .img-holder img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.age,
+.city,
+.what {
+  opacity: 0.8;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.city {
+  font-size: 1rem;
+}
+
+.name-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.age {
+  padding-left: 0.5em;
+}
+
+.what {
+  letter-spacing: 1px;
+}
+
+.user-meta {
+  border-top: 1px solid hsl(0, 0%, 59%);
+  display: flex;
+  border-radius: 0 0 20px 20px;
+}
+
+.user-meta .item {
+  flex: 1;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-meta .value {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
