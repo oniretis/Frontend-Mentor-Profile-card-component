@@ -20,7 +20,7 @@ section.main {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url(images/bg-pattern-top.svg);
+  background-image: url(images/bg-pattern-top.svg);  
 }
 
 .card {
